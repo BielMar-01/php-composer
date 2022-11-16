@@ -1,0 +1,12 @@
+{
+  "name": "BielMar/buscador-cursos",
+  "description": "Projeto que busca cursos no site da Alura",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Gabriel Marques",
+      "email": "bielmarques922@gmail.com"
+    }
+  ],
+  "require": {}
+}
