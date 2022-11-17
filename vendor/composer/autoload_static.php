@@ -14,6 +14,7 @@ class ComposerStaticInit86889a18232b51d60ab3ba00cb93450b
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '1e4763b021d408efe80004fbd50e14f3' => __DIR__ . '/../..' . '/function.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -95,6 +96,8 @@ class ComposerStaticInit86889a18232b51d60ab3ba00cb93450b
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'Teste' => __DIR__ . '/../..' . '/Teste.php',
+        'Teste2' => __DIR__ . '/../..' . '/Teste.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
