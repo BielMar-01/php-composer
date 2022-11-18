@@ -32,6 +32,14 @@
     "scripts": {
         "test": "phpunit 04-ferramentas-de-qualidade-de-codigo\\tests\\TestBuscadorCursos.php",
         "cs": "phpcs --standard=PSR12 04-ferramentas-de-qualidade-de-codigo/src",
-        "phan": "vendor\\bin\\phan --allow-polyfill-parser 04-ferramentas-de-qualidade-de-codigo\\src\\Buscador.php"
+        "phan": "vendor\\bin\\phan --allow-polyfill-parser 04-ferramentas-de-qualidade-de-codigo\\src\\Buscador.php",
+        "check" : [
+            "@phan",
+            "@cs",
+            "@test"
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Rodas as verificações do codigo. PHAN, CS e TEST"
     }
 }
