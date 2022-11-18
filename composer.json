@@ -33,6 +33,7 @@
         "test": "phpunit 04-ferramentas-de-qualidade-de-codigo\\tests\\TestBuscadorCursos.php",
         "cs": "phpcs --standard=PSR12 04-ferramentas-de-qualidade-de-codigo/src",
         "phan": "vendor\\bin\\phan --allow-polyfill-parser 04-ferramentas-de-qualidade-de-codigo\\src\\Buscador.php",
+        "ls": "dir",
         "check" : [
             "@phan",
             "@cs",
